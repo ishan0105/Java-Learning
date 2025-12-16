@@ -1,25 +1,23 @@
 package PackageOne;
 
-// File: Methods.java
-
 class Parent {
 
-    // 1️⃣ Instance Method
+    // Instance Method
     void instanceMethod() {
         System.out.println("Parent: Instance method");
     }
 
-    // 2️⃣ Static Method
+    // Static Method
     static void staticMethod() {
         System.out.println("Parent: Static method");
     }
 
-    // 3️⃣ Final Method
+    // Final Method
     final void finalMethod() {
         System.out.println("Parent: Final method");
     }
 
-    // 4️⃣ Protected Method
+    // Protected Method
     protected void protectedMethod() {
         System.out.println("Parent: Protected method");
     }
